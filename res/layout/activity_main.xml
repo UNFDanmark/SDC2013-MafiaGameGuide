@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Scroll_Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030305" >
+	
+	<LinearLayout
+        android:id="@+id/LidgvnearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity" >
+   
+		<LinearLayout
+		    android:id="@+id/LinefhfgharLayout23"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/mgg_top_mainpage"
+		    android:orientation="vertical"
+		    tools:context=".MainActivity" >
+	    </LinearLayout>
+    
+	
+	
+	   <LinearLayout
+	        android:id="@+id/LinearLagvbdghyout146"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical"
+	        tools:context=".MainActivity"
+	        android:background="@drawable/mgg_bottom_mainpage" >
+	
+	        <Button
+	            android:id="@+id/B_Main_NewGame"
+	            android:layout_width="130dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="12dp"
+	            android:layout_marginTop="0dp"
+	            android:text="New game"
+	            android:textColor="#FFF" />
+	
+	        <Button
+	            android:id="@+id/B_Main_HowToPlay"
+	            android:layout_width="130dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="12dp"
+	            android:text="How to play?"
+	            android:textColor="#FFF" />
+	
+	        <Button
+	            android:id="@+id/B_Main_Preferences"
+	            android:layout_width="130dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="12dp"
+	            android:text="Preferences"
+	            android:textColor="#FFF" />
+	        
+	        <Button
+	            android:id="@+id/B_main_GoToAbout"
+	            android:layout_width="130dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp"
+	            android:text="About"
+	            android:textColor="#FFF" />
+	
+	
+	    	</LinearLayout>
+	    	
+	   
+	   
+     </LinearLayout>
+
+</ScrollView>

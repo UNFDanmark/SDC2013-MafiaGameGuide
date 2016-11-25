@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RoleListActivity" >
+
+    <ListView
+        android:id="@+id/ListView_RoleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/B_RoleList_AddRole"
+        tools:listitem="@android:layout/simple_list_item_1" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/B_RoleList_AddRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Add role" />
+
+    <Button
+        android:id="@+id/B_RoleList_RemoveRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/B_RoleList_AddRole"
+        android:layout_below="@+id/B_RoleList_AddRole"
+        android:text="Delete role" />
+
+    <Button
+        android:id="@+id/B_RoleList_EditRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/B_RoleList_RemoveRole"
+        android:layout_toRightOf="@+id/ListView_RoleList"
+        android:text="Edit role" />
+
+    <Button
+        android:id="@+id/B_RoleList_MoveUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/B_RoleList_MoveDown"
+        android:layout_alignLeft="@+id/B_RoleList_EditRole"
+        android:text="Move up" />
+
+    <Button
+        android:id="@+id/B_RoleList_MoveDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ListView_RoleList"
+        android:layout_alignLeft="@+id/B_RoleList_MoveUp"
+        android:text="Move down" />
+
+    <TextView
+        android:id="@+id/TESTTEXTVIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/B_RoleList_EditRole"
+        android:layout_below="@+id/B_RoleList_EditRole"
+        android:layout_marginTop="17dp"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/mgg_bg_clean"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GameActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="#66FFFFFF"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TV_Setup_Game_CurrentTurn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Current Turn:"
+            android:textColor="#FF9900"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TV_Setup_Game_Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF9900"
+            android:gravity="right"
+            android:text=""
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/LV_Setup_Game_Player1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/B_Setup_Game_Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9900"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="Start Game" />
+
+</LinearLayout>

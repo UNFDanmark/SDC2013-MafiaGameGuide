@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EditRoleActivity" >
+
+    <TextView
+        android:id="@+id/TV_Settings_EditRole_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit exsisting role"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TV_Settings_EditRole_RoleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role name:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/ET_Settings_EditRole_RoleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TV_Settings_EditRole_RoleDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/ET_Settings_EditRole_RoleDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    
+	 <TextView
+        android:id="@+id/TV_Settings_EditRole_Faction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	 
+    <Spinner
+        android:id="@+id/Spinner_Settings_EditRole_TeamSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+
+    <CheckBox
+        android:id="@+id/CB_Settings_EditRole_WakeUpSeparately"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wake up separately" />
+
+    <CheckBox
+        android:id="@+id/CB_Settings_EditRole_WakeFirstNightOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only wake first night" />
+    
+    <Button
+        android:id="@+id/B_Settings_EditRole_Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Save changes" />
+
+</LinearLayout>

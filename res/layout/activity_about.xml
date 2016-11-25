@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TV_Guide_StoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Why did we make this app?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/TV_Guide_StoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="To the game Werewolf comes Mafia which brings card game to another level.\n\nMafia Game Guide helps the Gamemaster to keep track of the game, while also helping him divide roles to players before the game.\n\nFor new players, we offer a startup guide to help you get playing right away.\n\nThe point of this MGG is to help the gamemaster to keep track of the game, players, status etc.\n\nMGG also gives the ability to new players to easly join a game for the first time and play equally with the others, by reading our excellent start guide.\nPro players get the ability to scramble roles and play a more customized game.\nIt is our goal to help you have a better gaming experience, while playing Mafia.\n\nSpecial thanks to:\nChristian Nellemose Petersen - Music theme, and custom image background and icons.\nAll the people from SDC.UNF - Helping, being awesome and more..."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/B_About_GoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Take me back" />
+
+    </LinearLayout>
+
+</ScrollView>

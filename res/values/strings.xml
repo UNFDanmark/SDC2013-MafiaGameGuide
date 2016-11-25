@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gruppe10</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="info">If you have never played before and want to set a really simple game, take a standard deck of cards and take out cards equal to the amount of players you are, remember that one person must be Gamemaster and cannot play. About one third of the cards taken out should be black, and the rest red. They have to keep their role secret from the other players.\n\nThe game is played in cycles, with one night and day. Every night, the players must close their eyes while Gamemaster performs a series of tasks. In the following we have put together an example of how this can be performed.\n\nWhen every player who has an action during the night has committed their action the day begins with Gamemaster stating: "The village wakes! Followed by who has been killed.\n\nTo get rid of the mafia all the inhabitants of the village argue who could be members of the mafia. After the discussion people vote, by pointing to who they want to \"hang\", in an effort to get rid of the mafia. The two players who had the most votes then get to make a defense speech. The player who had the most votes must begin.\n\nAfter finishing the defense speeches, people get to vote again but only for one of the two. The one with more votes is then \"hung\".\n\nNow one game cycle has been completed, and the Gamemaster states: "The village sleeps".\n\nThe game ends when one team wins eg. the good guys kills all of the bad guys or the other way around, and if you are on the winning team, you have obviously won.</string>
+    <string name="title_activity_role_specs">RoleSpecsActivity</string>
+    <string name="title_activity_create_role">CreateRoleActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_edit_role">EditRoleActivity</string>
+
+</resources>

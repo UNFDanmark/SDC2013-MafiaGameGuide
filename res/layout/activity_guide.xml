@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Scroll_Guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".GuideActivity" >
+
+        <TextView
+            android:id="@+id/TV_Guide_LoreTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What&apos;s the story?"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/TV_Guide_Lore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:lineSpacingExtra="5sp"
+            android:text="In a small village a few inhabitants has become mafia, and they're killing everyone else. In an attempt to get rid of the mafia, the village decide to hang one everyday. Suddenly noone really knows who to trust because everyone is a potential mafia member."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/TV_Guide_BasicGameplayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to get going !"
+            android:textSize="21sp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TV_Guide_BasicGameplayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/info"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/TV_Guide_ReadSpecifics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:paddingTop="10dp"
+            android:text="Get To Know the Varius Characters"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/B_Guide_DiscoverCharacters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover characters"
+            android:width="200dp" />
+		<TextView
+            android:id="@+id/TV_Guide_GoToSetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:paddingTop="10dp"
+            android:text="Or start your game now !"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+        <Button
+            android:id="@+id/B_Guide_GoToSetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Game"
+            android:width="200dp" />
+
+    </LinearLayout>
+
+</ScrollView>
